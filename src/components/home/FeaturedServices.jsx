@@ -1,4 +1,4 @@
-import { PiWrenchDuotone, PiHouseSimpleDuotone, PiUmbrellaDuotone, PiLightningDuotone } from 'react-icons/pi';
+import { PiWrenchDuotone, PiHouseSimpleDuotone, PiBuildingsDuotone, PiMagnifyingGlassDuotone, } from 'react-icons/pi';
 import SectionHeading from '@components/ui/SectionHeading';
 import ServiceCard from '@components/ui/ServiceCard';
 import { SERVICES } from '@data/services';
@@ -6,8 +6,8 @@ import { SERVICES } from '@data/services';
 const ICONS = {
   repair: PiWrenchDuotone,
   replacement: PiHouseSimpleDuotone,
-  patio: PiUmbrellaDuotone,
-  electrical: PiLightningDuotone,
+  commercial: PiBuildingsDuotone,
+  inspection: PiMagnifyingGlassDuotone,
 };
 
 const FeaturedServices = () => (
@@ -15,8 +15,8 @@ const FeaturedServices = () => (
     <div className="container-custom">
       <SectionHeading
         eyebrow="What We Do"
-        title="Roofing, Outdoor Living & Electrical — One Trusted Crew"
-        subtitle="From a single leak to a full replacement or a new covered patio, our licensed crews handle it start to finish."
+        title="Complete Roofing Solutions"
+        subtitle="From emergency roof repairs and inspections to commercial roofing and full roof replacements, our experienced team delivers dependable roofing solutions built to last."
       />
 
       <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">

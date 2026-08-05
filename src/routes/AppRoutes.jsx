@@ -5,8 +5,8 @@ import Layout from '@components/layout/Layout';
 const Home = lazy(() => import('@pages/Home'));
 const RoofRepair = lazy(() => import('@pages/RoofRepair'));
 const RoofReplacement = lazy(() => import('@pages/RoofReplacement'));
-const PatioConstruction = lazy(() => import('@pages/PatioConstruction'));
-const ElectricalServices = lazy(() => import('@pages/ElectricalServices'));
+const CommercialRoofing = lazy(() => import('@pages/CommercialRoofing'));
+const RoofInspection = lazy(() => import('@pages/RoofInspection'));
 const ServiceAreas = lazy(() => import('@pages/ServiceAreas'));
 const ServiceArea = lazy(() => import('@pages/ServiceArea'));
 const Reviews = lazy(() => import('@pages/Reviews'));
@@ -28,8 +28,8 @@ const AppRoutes = () => {
         <Route index element={<Home />} />
         <Route path="roof-repair" element={<RoofRepair />} />
         <Route path="roof-replacement" element={<RoofReplacement />} />
-        <Route path="patio-construction" element={<PatioConstruction />} />
-        <Route path="electrical-services" element={<ElectricalServices />} />
+        <Route path="commercial-roofing" element={<CommercialRoofing />} />
+        <Route path="roof-inspection" element={<RoofInspection />} />
         <Route path="service-areas" element={<ServiceAreas />} />
         <Route path="service-areas/:slug" element={<ServiceArea />} />
         <Route path="reviews" element={<Reviews />} />

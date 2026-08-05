@@ -2,10 +2,10 @@ import roofRepairBefore from '@assets/images/gallery/roof-repair-before.svg';
 import roofRepairAfter from '@assets/images/gallery/roof-repair-after.svg';
 import roofReplacementBefore from '@assets/images/gallery/roof-replacement-before.svg';
 import roofReplacementAfter from '@assets/images/gallery/roof-replacement-after.svg';
-import patioConstructionBefore from '@assets/images/gallery/patio-construction-before.svg';
-import patioConstructionAfter from '@assets/images/gallery/patio-construction-after.svg';
-import electricalServicesBefore from '@assets/images/gallery/electrical-services-before.svg';
-import electricalServicesAfter from '@assets/images/gallery/electrical-services-after.svg';
+import commercialRoofingBefore from '@assets/images/gallery/commercial-roofing-before.svg';
+import commercialRoofingAfter from '@assets/images/gallery/commercial-roofing-after.svg';
+import roofInspectionBefore from '@assets/images/gallery/roof-inspection-before.svg';
+import roofInspectionAfter from '@assets/images/gallery/roof-inspection-after.svg';
 
 export const GALLERY_PROJECTS = [
   {
@@ -41,35 +41,35 @@ export const GALLERY_PROJECTS = [
     after: roofRepairAfter,
   },
   {
-    id: 'citra-patio-cover',
-    title: 'Custom Covered Patio',
-    category: 'Patio Construction',
-    location: 'Citra, FL',
-    before: patioConstructionBefore,
-    after: patioConstructionAfter,
-  },
-  {
-    id: 'ocala-outdoor-living',
-    title: 'Outdoor Living Space',
-    category: 'Patio Construction',
+    id: 'ocala-commercial-roof',
+    title: 'Commercial Flat Roof Installation',
+    category: 'Commercial Roofing',
     location: 'Ocala, FL',
-    before: patioConstructionBefore,
-    after: patioConstructionAfter,
+    before: commercialRoofingBefore,
+    after: commercialRoofingAfter,
   },
   {
-    id: 'ocala-panel-upgrade',
-    title: 'Electrical Panel Upgrade',
-    category: 'Electrical Services',
+    id: 'the-villages-commercial-repair',
+    title: 'Commercial Roof Restoration',
+    category: 'Commercial Roofing',
+    location: 'The Villages, FL',
+    before: commercialRoofingBefore,
+    after: commercialRoofingAfter,
+  },
+  {
+    id: 'ocala-roof-inspection',
+    title: 'Annual Roof Inspection',
+    category: 'Roof Inspection',
     location: 'Ocala, FL',
-    before: electricalServicesBefore,
-    after: electricalServicesAfter,
+    before: roofInspectionBefore,
+    after: roofInspectionAfter,
   },
   {
-    id: 'belleview-lighting',
-    title: 'Outdoor Lighting Install',
-    category: 'Electrical Services',
+    id: 'belleview-storm-inspection',
+    title: 'Post-Storm Roof Inspection',
+    category: 'Roof Inspection',
     location: 'Belleview, FL',
-    before: electricalServicesBefore,
-    after: electricalServicesAfter,
+    before: roofInspectionBefore,
+    after: roofInspectionAfter,
   },
 ];

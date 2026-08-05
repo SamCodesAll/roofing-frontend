@@ -1,7 +1,7 @@
 import heroRoofRepair from '@assets/images/hero/hero-roof-repair.webp';
 import heroRoofReplacement from '@assets/images/hero/hero-roof-replacement.webp';
-import heroPatio from '@assets/images/hero/hero-patio.webp';
-import heroElectrical from '@assets/images/hero/hero-electrical.webp';
+import heroCommercialRoofing from '@assets/images/hero/hero-commercial-roofing.webp';
+import heroRoofInspection from '@assets/images/hero/hero-roof-inspection.webp';
 
 export const SERVICE_DETAILS = {
   'roof-repair': {
@@ -76,12 +76,12 @@ export const SERVICE_DETAILS = {
     ],
   },
 
-  'patio-construction': {
-    title: 'Patio Construction',
-    heroSubtitle: 'Custom covered patios and outdoor living spaces designed to extend your home and match your roofline.',
-    heroImage: heroPatio,
-    keywords: ['Covered Patios', 'Outdoor Living Spaces', 'Custom Patio Design'],
-    metaDescription: "Custom covered patios and outdoor living spaces built to match your home in Ocala, FL and Marion County. Free design consultation.",
+  'commercial-roofing': {
+    title: 'Commercial Roofing',
+    heroSubtitle: 'Specialized solutions for commercial properties, including flat roofs and complex structures.',
+    heroImage: heroCommercialRoofing,     
+    keywords: ['Commercial Roofing', 'Flat Roofs', 'Complex Structures'],
+    metaDescription: "Specialized commercial roofing solutions for flat roofs and complex structures in Ocala, FL and Marion County. Free consultation.",
     intro: {
       eyebrow: 'Outdoor Living, Built Right',
       title: 'Covered Patios Designed Around Your Home',
@@ -110,12 +110,12 @@ export const SERVICE_DETAILS = {
     ],
   },
 
-  'electrical-services': {
-    title: 'Electrical Services',
-    heroSubtitle: 'Panel upgrades, lighting, and licensed safety inspections — from routine repairs to full residential rewiring.',
-    heroImage: heroElectrical,
-    keywords: ['Residential Electrical Repairs', 'Panel Upgrades', 'Lighting', 'Safety Inspections'],
-    metaDescription: "Licensed residential electrical repairs, panel upgrades, lighting, and safety inspections in Ocala, FL. Same trusted crew as our roofing work.",
+  'roof-inspection': {
+    title: 'Roof Inspection',
+    heroSubtitle: 'Comprehensive roof assessments to identify potential issues and ensure your roof is in optimal condition.',
+    heroImage: heroRoofInspection,
+    keywords: ['Roof Inspection', 'Roof Assessment', 'Preventive Maintenance'],
+    metaDescription: "Professional roof inspection services in Ocala, FL. Identify potential issues and ensure your roof is in optimal condition.",
     intro: {
       eyebrow: 'Licensed Electrical Work',
       title: 'Electrical Services Backed by the Same Trusted Crew',

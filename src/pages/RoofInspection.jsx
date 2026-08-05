@@ -8,19 +8,41 @@ import ServiceFAQs from '@components/services/ServiceFAQs';
 import ServiceQuoteCTA from '@components/services/ServiceQuoteCTA';
 import { SERVICE_DETAILS } from '@data/serviceDetails';
 
-const data = SERVICE_DETAILS['patio-construction'];
+const data = SERVICE_DETAILS['roof-inspection'];
 
-const PatioConstruction = () => (
+const RoofInspection = () => (
   <>
-    <SEO title={data.title} description={data.metaDescription} path="/patio-construction" keywords={data.keywords} />
-    <ServiceHero title={data.title} subtitle={data.heroSubtitle} image={data.heroImage} />
-    <ProblemsOrBenefitsGrid intro={data.intro} items={data.problemsOrBenefits} />
-    <ProcessSteps title="Our Design & Build Process" steps={data.process} />
-    <ServiceGalleryTeaser category="Patio Construction" />
+    <SEO
+      title={data.title}
+      description={data.metaDescription}
+      path="/roof-inspection"
+      keywords={data.keywords}
+    />
+
+    <ServiceHero
+      title={data.title}
+      subtitle={data.heroSubtitle}
+      image={data.heroImage}
+    />
+
+    <ProblemsOrBenefitsGrid
+      intro={data.intro}
+      items={data.problemsOrBenefits}
+    />
+
+    <ProcessSteps
+      title="Our Roof Inspection Process"
+      steps={data.process}
+    />
+
+    <ServiceGalleryTeaser category="Roof Inspection" />
+
     <ServiceReviews />
+
     <ServiceFAQs items={data.faqs} />
+
     <ServiceQuoteCTA serviceName={data.title} />
   </>
 );
 
-export default PatioConstruction;
+export default RoofInspection;

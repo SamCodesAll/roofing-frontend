@@ -1,7 +1,7 @@
 import roofRepairCard from '@assets/images/services/roof-repair-card.svg';
 import roofReplacementCard from '@assets/images/services/roof-replacement-card.svg';
-import patioConstructionCard from '@assets/images/services/patio-construction-card.svg';
-import electricalServicesCard from '@assets/images/services/electrical-services-card.svg';
+import commercialRoofingCard from '@assets/images/services/commercial-roofing-card.svg';
+import roofInspectionCard from '@assets/images/services/roof-inspection-card.svg';
 
 export const SERVICES = [
   {
@@ -21,19 +21,19 @@ export const SERVICES = [
     path: '/roof-replacement',
   },
   {
-    slug: 'patio-construction',
-    iconKey: 'patio',
-    title: 'Patio Construction',
-    description: 'Custom covered patios and outdoor living spaces designed to extend your home and match your roofline.',
-    image: patioConstructionCard,
-    path: '/patio-construction',
+    slug: 'commercial-roofing',
+    iconKey: 'commercial',
+    title: 'Commercial Roofing',
+    description: 'Specialized solutions for commercial properties, including flat roofs and complex structures.',
+    image: commercialRoofingCard,
+    path: '/commercial-roofing',
   },
   {
-    slug: 'electrical-services',
-    iconKey: 'electrical',
-    title: 'Electrical Services',
-    description: 'Panel upgrades, lighting, and licensed safety inspections — from routine repairs to full residential rewiring.',
-    image: electricalServicesCard,
-    path: '/electrical-services',
+    slug: 'roof-inspection',
+    iconKey: 'inspection',
+    title: 'Roof Inspection',
+    description: 'Comprehensive roof assessments to identify potential issues and ensure your roof is in optimal condition.',
+    image: roofInspectionCard,
+    path: '/roof-inspection',
   },
 ];

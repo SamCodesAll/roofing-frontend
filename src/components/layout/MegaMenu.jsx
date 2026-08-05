@@ -6,8 +6,8 @@ import { HiArrowRight } from 'react-icons/hi2';
 const ICONS = {
   '/roof-repair': PiWrenchDuotone,
   '/roof-replacement': PiHouseSimpleDuotone,
-  '/patio-construction': PiUmbrellaDuotone,
-  '/electrical-services': PiLightningDuotone,
+  '/commercial-roofing': PiUmbrellaDuotone,
+  '/roof-inspection': PiLightningDuotone,
 };
 
 const MegaMenu = ({ open, links, onNavigate }) => {

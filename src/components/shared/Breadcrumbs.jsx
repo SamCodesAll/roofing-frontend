@@ -6,8 +6,8 @@ import { buildBreadcrumbSchema } from '@utils/schema';
 const LABEL_OVERRIDES = {
   'roof-repair': 'Roof Repair',
   'roof-replacement': 'Roof Replacement',
-  'patio-construction': 'Patio Construction',
-  'electrical-services': 'Electrical Services',
+  'commercial-roofing': 'Commercial Roofing',
+  'roof-inspection': 'Roof Inspection',
   'service-areas': 'Service Areas',
 };
 

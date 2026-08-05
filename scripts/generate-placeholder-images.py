@@ -100,9 +100,9 @@ def hero_scene(top=PRIMARY, bottom=SECONDARY, houses=True, extra=""):
 save("hero/hero-home.webp", hero_scene())
 save("hero/hero-roof-repair.webp", hero_scene(top=PRIMARY_DARK, bottom=PRIMARY))
 save("hero/hero-roof-replacement.webp", hero_scene(top=SECONDARY, bottom=PRIMARY))
-save("hero/hero-patio.webp", hero_scene(top=PRIMARY, bottom=SUCCESS, houses=False,
+save("hero/hero-commercial-roofing.webp", hero_scene(top=PRIMARY, bottom=SUCCESS, houses=False,
      extra=house_silhouette(800, 640, 5, ACCENT, WHITE)))
-save("hero/hero-electrical.webp", hero_scene(top=PRIMARY_DARKER, bottom=PRIMARY))
+save("hero/hero-roof-inspection.webp", hero_scene(top=PRIMARY_DARKER, bottom=PRIMARY))
 save("hero/hero-gallery.webp", hero_scene(top=SECONDARY, bottom=PRIMARY_DARK))
 save("hero/hero-reviews.webp", hero_scene(top=PRIMARY, bottom=SECONDARY))
 save("hero/hero-about.webp", hero_scene(top=PRIMARY_DARK, bottom=SECONDARY))
@@ -169,8 +169,8 @@ def service_card_scene(color_top, color_bottom, motif):
 
 save("services/roof-repair-card.svg", service_card_scene(PRIMARY, PRIMARY_DARK, "repair"))
 save("services/roof-replacement-card.svg", service_card_scene(SECONDARY, PRIMARY, "replacement"))
-save("services/patio-construction-card.svg", service_card_scene(PRIMARY, SUCCESS, "patio"))
-save("services/electrical-services-card.svg", service_card_scene(PRIMARY_DARK, PRIMARY, "electrical"))
+save("services/commercial-roofing-card.svg", service_card_scene(PRIMARY, SUCCESS, "patio"))
+save("services/roof-inspection-card.svg", service_card_scene(PRIMARY_DARK, PRIMARY, "electrical"))
 
 # ---------------------------------------------------------------------------
 # GALLERY / BEFORE-AFTER illustrations (4 categories x before/after)
@@ -193,8 +193,8 @@ def gallery_scene(color_top, color_bottom, worn, label):
 CATEGORIES = [
     ("roof-repair", PRIMARY_DARK, PRIMARY),
     ("roof-replacement", SECONDARY, PRIMARY),
-    ("patio-construction", PRIMARY, SUCCESS),
-    ("electrical-services", PRIMARY_DARKER, PRIMARY),
+    ("commercial-roofing", PRIMARY, SUCCESS),
+    ("roof-inspection", PRIMARY_DARKER, PRIMARY),
 ]
 
 for slug, top, bottom in CATEGORIES:
