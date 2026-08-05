@@ -18,7 +18,7 @@ const ServiceHero = ({ title, subtitle, image }) => {
           ref={parallaxRef}
           src={image}
           alt={title}
-          className="absolute inset-0 h-[130%] w-full -top-[15%] object-cover"
+          className="absolute inset-0 h-full w-full object-cover object-right"
           fetchPriority="high"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-[var(--color-primary-900)] via-[var(--color-primary-900)]/75 to-[var(--color-primary-900)]/50" />

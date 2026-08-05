@@ -97,17 +97,17 @@ def hero_scene(top=PRIMARY, bottom=SECONDARY, houses=True, extra=""):
     return wrap_svg(w, h, body)
 
 
-save("hero/hero-roofing-crew.svg", hero_scene())
-save("hero/hero-roof-repair.svg", hero_scene(top=PRIMARY_DARK, bottom=PRIMARY))
-save("hero/hero-roof-replacement.svg", hero_scene(top=SECONDARY, bottom=PRIMARY))
-save("hero/hero-patio.svg", hero_scene(top=PRIMARY, bottom=SUCCESS, houses=False,
+save("hero/hero-home.webp", hero_scene())
+save("hero/hero-roof-repair.webp", hero_scene(top=PRIMARY_DARK, bottom=PRIMARY))
+save("hero/hero-roof-replacement.webp", hero_scene(top=SECONDARY, bottom=PRIMARY))
+save("hero/hero-patio.webp", hero_scene(top=PRIMARY, bottom=SUCCESS, houses=False,
      extra=house_silhouette(800, 640, 5, ACCENT, WHITE)))
-save("hero/hero-electrical.svg", hero_scene(top=PRIMARY_DARKER, bottom=PRIMARY))
-save("hero/hero-gallery.svg", hero_scene(top=SECONDARY, bottom=PRIMARY_DARK))
-save("hero/hero-reviews.svg", hero_scene(top=PRIMARY, bottom=SECONDARY))
-save("hero/hero-about.svg", hero_scene(top=PRIMARY_DARK, bottom=SECONDARY))
-save("hero/hero-contact.svg", hero_scene(top=SECONDARY, bottom=PRIMARY))
-save("hero/hero-service-areas.svg", hero_scene(top=PRIMARY, bottom=PRIMARY_DARK))
+save("hero/hero-electrical.webp", hero_scene(top=PRIMARY_DARKER, bottom=PRIMARY))
+save("hero/hero-gallery.webp", hero_scene(top=SECONDARY, bottom=PRIMARY_DARK))
+save("hero/hero-reviews.webp", hero_scene(top=PRIMARY, bottom=SECONDARY))
+save("hero/hero-about.webp", hero_scene(top=PRIMARY_DARK, bottom=SECONDARY))
+save("hero/hero-contact.webp", hero_scene(top=SECONDARY, bottom=PRIMARY))
+save("hero/hero-service-areas.webp", hero_scene(top=PRIMARY, bottom=PRIMARY_DARK))
 
 # ---------------------------------------------------------------------------
 # ABOUT illustrations

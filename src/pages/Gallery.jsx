@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react';
-import heroGallery from '@assets/images/hero/hero-gallery.svg';
+import heroGallery from '@assets/images/hero/hero-gallery.webp';
 import ServiceHero from '@components/services/ServiceHero';
 import SEO from '@components/shared/SEO';
 import GalleryFilters from '@components/gallery/GalleryFilters';

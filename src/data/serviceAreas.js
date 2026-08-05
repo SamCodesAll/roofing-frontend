@@ -1,4 +1,4 @@
-import heroServiceAreas from '@assets/images/hero/hero-service-areas.svg';
+import heroServiceAreas from '@assets/images/hero/hero-service-areas.webp';
 
 export const SERVICE_AREAS = [
   {

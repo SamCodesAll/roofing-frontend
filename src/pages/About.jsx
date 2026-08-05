@@ -1,5 +1,5 @@
 import ServiceHero from '@components/services/ServiceHero';
-import heroAbout from '@assets/images/hero/hero-about.svg';
+import heroAbout from '@assets/images/hero/hero-about.webp';
 import SEO from '@components/shared/SEO';
 import CompanyStory from '@components/about/CompanyStory';
 import MissionValues from '@components/about/MissionValues';

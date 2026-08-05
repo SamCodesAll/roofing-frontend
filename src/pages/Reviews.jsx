@@ -1,5 +1,5 @@
 import ServiceHero from '@components/services/ServiceHero';
-import heroReviews from '@assets/images/hero/hero-reviews.svg';
+import heroReviews from '@assets/images/hero/hero-reviews.webp';
 import SEO from '@components/shared/SEO';
 import JsonLd from '@components/shared/JsonLd';
 import RatingSummary from '@components/reviews/RatingSummary';

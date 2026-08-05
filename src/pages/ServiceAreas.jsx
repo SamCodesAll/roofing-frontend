@@ -1,5 +1,5 @@
 import ServiceHero from '@components/services/ServiceHero';
-import heroServiceAreas from '@assets/images/hero/hero-service-areas.svg';
+import heroServiceAreas from '@assets/images/hero/hero-service-areas.webp';
 import SEO from '@components/shared/SEO';
 import ServiceAreasSection from '@components/home/ServiceAreasSection';
 import ServiceFAQs from '@components/services/ServiceFAQs';

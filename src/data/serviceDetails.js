@@ -1,7 +1,7 @@
-import heroRoofRepair from '@assets/images/hero/hero-roof-repair.svg';
-import heroRoofReplacement from '@assets/images/hero/hero-roof-replacement.svg';
-import heroPatio from '@assets/images/hero/hero-patio.svg';
-import heroElectrical from '@assets/images/hero/hero-electrical.svg';
+import heroRoofRepair from '@assets/images/hero/hero-roof-repair.webp';
+import heroRoofReplacement from '@assets/images/hero/hero-roof-replacement.webp';
+import heroPatio from '@assets/images/hero/hero-patio.webp';
+import heroElectrical from '@assets/images/hero/hero-electrical.webp';
 
 export const SERVICE_DETAILS = {
   'roof-repair': {

@@ -1,4 +1,4 @@
-import heroRoofingCrew from '@assets/images/hero/hero-roofing-crew.svg';
+import heroRoofingCrew from "@assets/images/hero/hero-home.webp";
 
 export const SITE_URL = 'https://www.scottsmithroofing.com';
 

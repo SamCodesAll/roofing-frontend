@@ -3,7 +3,7 @@ import { HiCheckCircle, HiPhone, HiStar, HiShieldCheck, HiClock } from 'react-ic
 import Button from '@components/ui/Button';
 import useParallax from '@animations/useParallax';
 import { COMPANY } from '@data/company';
-import heroImage from '@assets/images/hero/hero-roofing-crew.svg';
+import heroImage from '@assets/images/hero/hero-home.webp';
 
 const TRUST_POINTS = [
   'Licensed Professionals',
@@ -40,7 +40,7 @@ const Hero = () => {
           ref={parallaxRef}
           src={heroImage}
           alt="Professional roofing crew installing a new residential roof"
-          className="absolute inset-0 h-[130%] w-full -top-[15%] object-cover"
+          className="absolute inset-0 h-full w-full object-cover object-center"
           fetchPriority="high"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-[var(--color-primary-900)] via-[var(--color-primary-900)]/70 to-[var(--color-primary-900)]/40" />

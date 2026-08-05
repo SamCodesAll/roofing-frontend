@@ -1,5 +1,5 @@
 import ServiceHero from '@components/services/ServiceHero';
-import heroContact from '@assets/images/hero/hero-contact.svg';
+import heroContact from '@assets/images/hero/hero-contact.webp';
 import SEO from '@components/shared/SEO';
 import QuoteForm from '@components/contact/QuoteForm';
 import ContactInfoCard from '@components/contact/ContactInfoCard';

@@ -25,7 +25,7 @@ photography whenever you have it — see below.
 Every image is imported by file path, e.g.:
 
 ```js
-import heroImage from '@assets/images/hero/hero-roofing-crew.svg';
+import heroImage from '@assets/images/hero/hero-roofing-crew.webp';
 ```
 
 To replace one:
