@@ -1,0 +1,298 @@
+@layer components {
+  /* ============================================
+     LAYOUT PRIMITIVES
+  ============================================ */
+  .container-custom {
+    width: 100%;
+    max-width: var(--container-max);
+    margin-inline: auto;
+    padding-inline: 1.25rem;
+  }
+
+  @media (min-width: 768px) {
+    .container-custom {
+      padding-inline: 2rem;
+    }
+  }
+
+  .section {
+    padding-block: 4rem;
+  }
+
+  @media (min-width: 1024px) {
+    .section {
+      padding-block: 6rem;
+    }
+  }
+
+  .section-alt {
+    background-color: var(--color-bg-section);
+  }
+
+  /* ============================================
+     TYPOGRAPHY HELPERS
+  ============================================ */
+  .heading-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: var(--font-body);
+    font-size: 0.8125rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--color-accent-600);
+  }
+
+  .heading-hero {
+    font-size: var(--text-hero);
+    line-height: var(--text-hero--line-height);
+    font-weight: var(--text-hero--font-weight);
+    color: var(--color-text-primary);
+  }
+
+  .heading-display {
+    font-size: var(--text-display);
+    line-height: var(--text-display--line-height);
+    font-weight: var(--text-display--font-weight);
+    color: var(--color-text-primary);
+  }
+
+  .heading-section {
+    font-size: var(--text-section-title);
+    line-height: var(--text-section-title--line-height);
+    font-weight: var(--text-section-title--font-weight);
+    color: var(--color-text-primary);
+  }
+
+  .text-body-lg {
+    font-size: 1.125rem;
+    line-height: 1.7;
+    color: var(--color-text-secondary);
+  }
+
+  /* ============================================
+     BUTTONS
+  ============================================ */
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    white-space: nowrap;
+    border-radius: 999px;
+    font-family: var(--font-body);
+    font-weight: 700;
+    font-size: 0.9375rem;
+    padding: 0.875rem 1.75rem;
+    transition: transform 0.2s var(--ease-premium), box-shadow 0.2s var(--ease-premium), background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+    cursor: pointer;
+    border: 1px solid transparent;
+  }
+
+  .btn:active {
+    transform: scale(0.97);
+  }
+
+  .btn-primary {
+    background-color: var(--color-accent-500);
+    color: var(--color-text-inverse);
+    box-shadow: var(--shadow-glow-accent);
+  }
+  .btn-primary:hover {
+    background-color: var(--color-accent-600);
+    box-shadow: 0 12px 30px rgba(249, 115, 22, 0.36);
+    transform: translateY(-2px);
+  }
+
+  .btn-secondary {
+    background-color: var(--color-primary-500);
+    color: var(--color-text-inverse);
+  }
+  .btn-secondary:hover {
+    background-color: var(--color-primary-600);
+    transform: translateY(-2px);
+  }
+
+  .btn-outline {
+    background-color: transparent;
+    color: var(--color-primary-600);
+    border-color: var(--color-border-strong);
+  }
+  .btn-outline:hover {
+    border-color: var(--color-primary-500);
+    background-color: var(--color-primary-50);
+  }
+
+  .btn-outline-inverse {
+    background-color: transparent;
+    color: var(--color-text-inverse);
+    border-color: rgba(255, 255, 255, 0.5);
+  }
+  .btn-outline-inverse:hover {
+    background-color: rgba(255, 255, 255, 0.12);
+    border-color: #ffffff;
+  }
+
+  .btn-ghost {
+    background-color: transparent;
+    color: var(--color-primary-600);
+  }
+  .btn-ghost:hover {
+    background-color: var(--color-primary-50);
+  }
+
+  .btn-lg {
+    padding: 1.125rem 2.25rem;
+    font-size: 1rem;
+  }
+
+  .btn-sm {
+    padding: 0.625rem 1.25rem;
+    font-size: 0.875rem;
+  }
+
+  /* ============================================
+     CARDS
+  ============================================ */
+  .card {
+    background-color: var(--color-card);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-card);
+  }
+
+  .card-hover {
+    transition: transform 0.35s var(--ease-premium), box-shadow 0.35s var(--ease-premium);
+  }
+  .card-hover:hover {
+    transform: translateY(-6px);
+    box-shadow: var(--shadow-premium);
+  }
+
+  .card-flush {
+    background-color: var(--color-card);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-soft);
+    overflow: hidden;
+  }
+
+  /* ============================================
+     BADGES (trust signals, certifications)
+  ============================================ */
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.375rem;
+    border-radius: 999px;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    padding: 0.375rem 0.875rem;
+  }
+
+  .badge-trust {
+    background-color: var(--color-success-50);
+    color: var(--color-success-700);
+    border: 1px solid var(--color-success-200);
+  }
+
+  .badge-primary {
+    background-color: var(--color-primary-50);
+    color: var(--color-primary-700);
+    border: 1px solid var(--color-primary-200);
+  }
+
+  .badge-accent {
+    background-color: var(--color-accent-50);
+    color: var(--color-accent-700);
+    border: 1px solid var(--color-accent-200);
+  }
+
+  .badge-emergency {
+    background-color: var(--color-accent-500);
+    color: var(--color-text-inverse);
+    border: 1px solid var(--color-accent-600);
+  }
+
+  /* ============================================
+     SURFACES
+  ============================================ */
+  .glass-panel {
+    background-color: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+  }
+
+  .gradient-primary {
+    background-image: linear-gradient(135deg, var(--color-primary-700) 0%, var(--color-primary-500) 50%, var(--color-secondary-500) 100%);
+  }
+
+  .gradient-overlay-dark {
+    background-image: linear-gradient(180deg, rgba(6, 30, 55, 0.15) 0%, rgba(6, 30, 55, 0.75) 100%);
+  }
+
+  /* ============================================
+     FORM ELEMENTS (base — extended in Contact module)
+  ============================================ */
+  .input-field {
+    width: 100%;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--color-border-strong);
+    background-color: var(--color-bg);
+    padding: 0.75rem 1rem;
+    font-size: 0.9375rem;
+    color: var(--color-text-primary);
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  }
+  .input-field:focus {
+    outline: none;
+    border-color: var(--color-primary-400);
+    box-shadow: 0 0 0 3px var(--color-primary-100);
+  }
+
+  /* ============================================
+     SWIPER THEMING
+     Re-skins default Swiper navigation/pagination
+     to match the brand palette instead of stock blue.
+  ============================================ */
+  .swiper {
+    --swiper-theme-color: var(--color-accent-500);
+    --swiper-navigation-size: 20px;
+    --swiper-pagination-bullet-inactive-color: var(--color-border-strong);
+    --swiper-pagination-bullet-inactive-opacity: 1;
+    padding-bottom: 0.5rem;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 999px;
+    box-shadow: var(--shadow-card);
+    color: var(--color-primary-600);
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+  .swiper-button-next:hover,
+  .swiper-button-prev:hover {
+    background-color: var(--color-primary-500);
+    color: white;
+  }
+  .swiper-button-next::after,
+  .swiper-button-prev::after {
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+    transition: width 0.25s ease, border-radius 0.25s ease;
+  }
+  .swiper-pagination-bullet-active {
+    width: 22px;
+    border-radius: 999px;
+  }
+}

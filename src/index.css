@@ -1,0 +1,151 @@
+@import "tailwindcss";
+@import "./styles/components.css";
+
+@theme {
+  /* ============================================
+     COLOR SYSTEM
+     Brand roots (exact spec) + generated tint/shade
+     scales so Tailwind utilities like bg-primary-100,
+     text-accent-600, border-success-200 all work.
+  ============================================ */
+
+  /* Primary — Deep Roofing Blue */
+  --color-primary-50:  #EAF1F7;
+  --color-primary-100: #CEDFEC;
+  --color-primary-200: #A3C1DB;
+  --color-primary-300: #789FC7;
+  --color-primary-400: #467CAC;
+  --color-primary-500: #0F4C81;   /* brand base */
+  --color-primary-600: #0D4373;
+  --color-primary-700: #0A3660;
+  --color-primary-800: #082A4C;
+  --color-primary-900: #061E37;
+  --color-primary: var(--color-primary-500);
+
+  /* Secondary — Slate Blue */
+  --color-secondary-50:  #EEF4F7;
+  --color-secondary-100: #D3E4EC;
+  --color-secondary-200: #ABC9D8;
+  --color-secondary-300: #7FA9C0;
+  --color-secondary-400: #4E88A6;
+  --color-secondary-500: #2C6E91;  /* brand base */
+  --color-secondary-600: #275F7C;
+  --color-secondary-700: #204C63;
+  --color-secondary-800: #19394A;
+  --color-secondary-900: #112631;
+  --color-secondary: var(--color-secondary-500);
+
+  /* Accent — Construction Orange */
+  --color-accent-50:  #FFF3EA;
+  --color-accent-100: #FEE1CB;
+  --color-accent-200: #FDC297;
+  --color-accent-300: #FBA25F;
+  --color-accent-400: #F98D3D;
+  --color-accent-500: #F97316;   /* brand base */
+  --color-accent-600: #DD5F0A;
+  --color-accent-700: #B84C08;
+  --color-accent-800: #933C07;
+  --color-accent-900: #6E2D05;
+  --color-accent: var(--color-accent-500);
+
+  /* Success — Emerald Green (certifications, reviews, warranties) */
+  --color-success-50:  #E9F8EE;
+  --color-success-100: #C8EDD5;
+  --color-success-200: #97DBAE;
+  --color-success-300: #5FC383;
+  --color-success-400: #2FA85F;
+  --color-success-500: #16A34A;  /* brand base */
+  --color-success-600: #128A3F;
+  --color-success-700: #0F6F33;
+  --color-success-800: #0B5527;
+  --color-success-900: #073A1A;
+  --color-success: var(--color-success-500);
+
+  /* Neutrals / surfaces */
+  --color-bg: #FFFFFF;
+  --color-bg-secondary: #F8FAFC;
+  --color-bg-section: #F1F5F9;
+  --color-card: #FFFFFF;
+  --color-border: #E5E7EB;
+  --color-border-strong: #CBD5E1;
+
+  /* Text */
+  --color-text-primary: #1F2937;
+  --color-text-secondary: #6B7280;
+  --color-text-muted: #9CA3AF;
+  --color-text-inverse: #FFFFFF;
+
+  /* ============================================
+     TYPOGRAPHY
+  ============================================ */
+  --font-heading: "Manrope", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  /* Fluid display sizes for hero / section headlines */
+  --text-hero: clamp(2.5rem, 1.6rem + 3.6vw, 4.75rem);
+  --text-hero--line-height: 1.05;
+  --text-hero--font-weight: 800;
+
+  --text-display: clamp(2rem, 1.5rem + 2vw, 3.25rem);
+  --text-display--line-height: 1.1;
+  --text-display--font-weight: 800;
+
+  --text-section-title: clamp(1.75rem, 1.4rem + 1.4vw, 2.5rem);
+  --text-section-title--line-height: 1.15;
+  --text-section-title--font-weight: 700;
+
+  /* ============================================
+     SHAPE, SHADOW, MOTION
+  ============================================ */
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 20px;
+
+  --shadow-soft: 0 2px 8px rgba(15, 76, 129, 0.06), 0 1px 2px rgba(15, 76, 129, 0.04);
+  --shadow-card: 0 4px 16px rgba(15, 76, 129, 0.08), 0 2px 6px rgba(15, 76, 129, 0.05);
+  --shadow-premium: 0 20px 45px rgba(15, 76, 129, 0.14), 0 6px 16px rgba(15, 76, 129, 0.08);
+  --shadow-glow-accent: 0 8px 24px rgba(249, 115, 22, 0.28);
+
+  --ease-premium: cubic-bezier(0.22, 1, 0.36, 1);
+
+  /* Container */
+  --container-max: 1280px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-text-primary);
+  background-color: var(--color-bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  letter-spacing: -0.01em;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Accessible focus states — never remove outlines, only restyle them */
+:focus-visible {
+  outline: 2px solid var(--color-accent-500);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Respect reduced-motion preference site-wide */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

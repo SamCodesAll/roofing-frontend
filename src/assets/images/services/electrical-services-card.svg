@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+<defs>
+      <linearGradient id="svcelectrical" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#0A3660"/>
+        <stop offset="100%" stop-color="#0F4C81"/>
+      </linearGradient>
+    </defs>
+    <rect width="800" height="600" fill="url(#svcelectrical)"/><circle cx="660" cy="110" r="40" fill="#F97316" opacity="0.85"/><line x1="706.0" y1="110.0" x2="716.0" y2="110.0" stroke="#F97316" stroke-width="3" stroke-linecap="round" opacity="0.5"/><line x1="692.5" y1="142.5" x2="699.6" y2="149.6" stroke="#F97316" stroke-width="3" stroke-linecap="round" opacity="0.5"/><line x1="660.0" y1="156.0" x2="660.0" y2="166.0" stroke="#F97316" stroke-width="3" stroke-linecap="round" opacity="0.5"/><line x1="627.5" y1="142.5" x2="620.4" y2="149.6" stroke="#F97316" stroke-width="3" stroke-linecap="round" opacity="0.5"/><line x1="614.0" y1="110.0" x2="604.0" y2="110.0" stroke="#F97316" stroke-width="3" stroke-linecap="round" opacity="0.5"/><line x1="627.5" y1="77.5" x2="620.4" y2="70.4" stroke="#F97316" stroke-width="3" stroke-linecap="round" opacity="0.5"/><line x1="660.0" y1="64.0" x2="660.0" y2="54.0" stroke="#F97316" stroke-width="3" stroke-linecap="round" opacity="0.5"/><line x1="692.5" y1="77.5" x2="699.6" y2="70.4" stroke="#F97316" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+    <g transform="translate(400,430) scale(3.6)">
+      <polygon points="-70,0 0,-55 70,0" fill="#FFFFFF"/>
+      <rect x="-55" y="0" width="110" height="70" fill="#EAF1F7"/>
+      <rect x="-15" y="30" width="30" height="40" fill="#061E37" opacity="0.55"/>
+      <rect x="-42" y="14" width="20" height="18" fill="#EAF1F7" opacity="0.85"/>
+      <rect x="22" y="14" width="20" height="18" fill="#EAF1F7" opacity="0.85"/>
+    </g><rect x="380" y="330" width="40" height="60" rx="4" fill="#16A34A"/><line x1="400" y1="330" x2="400" y2="300" stroke="#16A34A" stroke-width="4"/>
+</svg>

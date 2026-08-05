@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" width="900" height="900">
+<defs>
+      <linearGradient id="galelectrical-servicesb" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#061E37"/>
+        <stop offset="100%" stop-color="#0F4C81"/>
+      </linearGradient>
+    </defs>
+    <rect width="900" height="900" fill="url(#galelectrical-servicesb)"/><circle cx="760" cy="140" r="50" fill="#F97316" opacity="0.85"/><line x1="816.0" y1="140.0" x2="826.0" y2="140.0" stroke="#F97316" stroke-width="3" stroke-linecap="round" opacity="0.5"/><line x1="799.6" y1="179.6" x2="806.7" y2="186.7" stroke="#F97316" stroke-width="3" stroke-linecap="round" opacity="0.5"/><line x1="760.0" y1="196.0" x2="760.0" y2="206.0" stroke="#F97316" stroke-width="3" stroke-linecap="round" opacity="0.5"/><line x1="720.4" y1="179.6" x2="713.3" y2="186.7" stroke="#F97316" stroke-width="3" stroke-linecap="round" opacity="0.5"/><line x1="704.0" y1="140.0" x2="694.0" y2="140.0" stroke="#F97316" stroke-width="3" stroke-linecap="round" opacity="0.5"/><line x1="720.4" y1="100.4" x2="713.3" y2="93.3" stroke="#F97316" stroke-width="3" stroke-linecap="round" opacity="0.5"/><line x1="760.0" y1="84.0" x2="760.0" y2="74.0" stroke="#F97316" stroke-width="3" stroke-linecap="round" opacity="0.5"/><line x1="799.6" y1="100.4" x2="806.7" y2="93.3" stroke="#F97316" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+    <g transform="translate(450,560) scale(5.8)">
+      <polygon points="-70,0 0,-55 70,0" fill="#9CA3AF"/>
+      <rect x="-55" y="0" width="110" height="70" fill="#E5E7EB"/>
+      <rect x="-15" y="30" width="30" height="40" fill="#061E37" opacity="0.55"/>
+      <rect x="-42" y="14" width="20" height="18" fill="#EAF1F7" opacity="0.85"/>
+      <rect x="22" y="14" width="20" height="18" fill="#EAF1F7" opacity="0.85"/>
+    </g><line x1="380" y1="480" x2="430" y2="520" stroke="#6B7280" stroke-width="4"/><line x1="470" y1="470" x2="510" y2="510" stroke="#6B7280" stroke-width="4"/><rect x="0" y="720" width="900" height="180" fill="#061E37" opacity="0.85"/>
+</svg>
