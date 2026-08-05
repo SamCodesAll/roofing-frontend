@@ -13,7 +13,7 @@ const Reviews = () => (
   <>
     <SEO
       title="Customer Reviews | 4.6★ Rated Roofing Company"
-      description="Read verified customer reviews of Apex Roofing Co. — 4.6 stars from homeowners across Ocala, Belleview, Citra, Reddick, and The Villages, FL."
+      description="Read verified customer reviews of Scott Smith Roofing — 4.6 stars from homeowners across Ocala, Belleview, Citra, Reddick, and The Villages, FL."
       path="/reviews"
     />
     <JsonLd data={buildReviewSchema(REVIEWS)} />

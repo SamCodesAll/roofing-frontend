@@ -12,11 +12,11 @@ const About = () => (
   <>
     <SEO
       title="About Us | Licensed Roofing Company in Ocala, FL"
-      description="Apex Roofing Co. is a licensed, locally owned roofing, patio, and electrical company serving Marion County families since 2011. Meet our team."
+      description="Scott Smith Roofing is a licensed, locally owned roofing, patio, and electrical company serving Marion County families since 2011. Meet our team."
       path="/about"
     />
     <ServiceHero
-      title="About Apex Roofing Co."
+      title="About Scott Smith Roofing"
       subtitle="A licensed, locally owned roofing, patio, and electrical company serving Marion County families since 2011."
       image={heroAbout}
     />

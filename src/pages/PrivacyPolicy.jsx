@@ -5,7 +5,7 @@ const PrivacyPolicy = () => {
     <section className="container-custom section min-h-[50vh]">
       <SEO
         title="Privacy Policy"
-        description="Privacy policy for Apex Roofing Co., outlining how we collect, use, and protect your personal information."
+        description="Privacy policy for Scott Smith Roofing, outlining how we collect, use, and protect your personal information."
         path="/privacy-policy"
       />
       <h1 className="heading-display">Privacy Policy</h1>

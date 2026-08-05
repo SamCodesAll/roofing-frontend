@@ -1,8 +1,8 @@
 export const COMPANY = {
-  name: 'Apex Roofing Co.',
+  name: 'Scott Smith Roofing',
   tagline: 'Roofing You Can Trust',
   phone: { display: '(352) 555-0173', href: 'tel:+13525550173' },
-  email: 'info@apexroofingco.com',
+  email: 'info@scottsmithroofing.com',
   address: {
     street: '1420 SW College Rd',
     city: 'Ocala',

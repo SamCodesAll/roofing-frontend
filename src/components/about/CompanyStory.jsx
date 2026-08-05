@@ -35,7 +35,7 @@ const CompanyStory = () => (
       >
         <img
           src={companyStoryImage}
-          alt="Apex Roofing Co. crew on a job site"
+          alt="Scott Smith Roofing crew on a job site"
           loading="lazy"
           className="h-full w-full object-cover"
         />

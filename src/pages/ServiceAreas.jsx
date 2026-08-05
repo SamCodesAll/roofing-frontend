@@ -10,7 +10,7 @@ const ServiceAreas = () => (
   <>
     <SEO
       title="Service Areas | Roofing Coverage in Marion County, FL"
-      description="Apex Roofing Co. serves Ocala, Reddick, Belleview, Citra, and The Villages with licensed roof repair, replacement, patio, and electrical services."
+      description="Scott Smith Roofing serves Ocala, Reddick, Belleview, Citra, and The Villages with licensed roof repair, replacement, patio, and electrical services."
       path="/service-areas"
       keywords={['roofing service areas Marion County', 'Ocala roofing company', 'roofers near me Florida']}
     />

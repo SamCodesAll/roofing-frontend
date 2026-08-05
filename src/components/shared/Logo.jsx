@@ -28,7 +28,7 @@ const Logo = ({ variant = 'dark', className = '' }) => {
             isLight ? 'text-white' : 'text-[var(--color-primary-700)]'
           }`}
         >
-          Apex Roofing
+          Scott Smith Roofing
         </span>
         <span
           className={`block text-[11px] font-semibold tracking-wide uppercase ${
