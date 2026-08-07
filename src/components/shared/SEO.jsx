@@ -2,7 +2,7 @@ import { SITE_URL, DEFAULT_OG_IMAGE } from '@constants/seo';
 import { COMPANY } from '@data/company';
 
 /**
- * <SEO title="Roof Repair | Scott Smith Roofing" description="..." path="/roof-repair" keywords={[...]} />
+ * <SEO title="Roof Repair | Sam Codes" description="..." path="/roof-repair" keywords={[...]} />
  *
  * React 19 automatically hoists <title>, <meta>, and <link> tags rendered
  * anywhere in the component tree into <head> — no extra library needed.

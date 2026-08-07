@@ -14,8 +14,8 @@ const Home = () => {
   return (
     <>
       <SEO
-        title="Scott Smith Roofing | Licensed Roofing & Home Services in Ocala, FL"
-        description="Scott Smith Roofing provides licensed, insured roof repair, roof replacement, patio construction, and electrical services across Ocala, Reddick, Belleview, Citra & The Villages. 24/7 emergency service, free estimates."
+        title="Sam Codes | Licensed Roofing & Home Services in Ocala, FL"
+        description="Sam Codes provides licensed, insured roof repair, roof replacement, patio construction, and electrical services across Ocala, Reddick, Belleview, Citra & The Villages. 24/7 emergency service, free estimates."
         path="/"
         keywords={['roofing Ocala FL', 'roof repair Ocala', 'roof replacement Marion County', 'emergency roofing Florida']}
       />

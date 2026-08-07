@@ -5,7 +5,7 @@ const Terms = () => {
     <section className="container-custom section min-h-[50vh]">
       <SEO
         title="Terms & Conditions"
-        description="Terms and conditions for using the Scott Smith Roofing website and services."
+        description="Terms and conditions for using the Sam Codes website and services."
         path="/terms"
       />
       <h1 className="heading-display">Terms &amp; Conditions</h1>

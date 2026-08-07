@@ -11,7 +11,7 @@ const Contact = () => (
   <>
     <SEO
       title="Contact Us | Free Roofing Estimate"
-      description="Request a free roofing, patio, or electrical estimate from Scott Smith Roofing. Call, WhatsApp, or fill out our quote form — we respond fast, day or night."
+      description="Request a free roofing, patio, or electrical estimate from Sam Codes. Call, WhatsApp, or fill out our quote form — we respond fast, day or night."
       path="/contact"
     />
     <ServiceHero

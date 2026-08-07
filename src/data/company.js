@@ -1,5 +1,5 @@
 export const COMPANY = {
-  name: 'Scott Smith Roofing',
+  name: 'Sam Codes',
   tagline: 'Roofing You Can Trust',
   phone: { display: '(352) 555-0173', href: 'tel:+13525550173' },
   email: 'info@scottsmithroofing.com',

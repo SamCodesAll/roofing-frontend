@@ -8,7 +8,7 @@ export const REVIEWS = [
     date: '2 weeks ago',
     location: 'Ocala, FL',
     image: testimonialRoofReplacement,
-    text: 'Scott Smith Roofing replaced our entire roof in a day and a half. The crew was professional, cleaned up completely, and the pricing was exactly what they quoted — no surprises.',
+    text: 'Sam Codes replaced our entire roof in a day and a half. The crew was professional, cleaned up completely, and the pricing was exactly what they quoted — no surprises.',
   },
   {
     name: 'Maria Santos',
