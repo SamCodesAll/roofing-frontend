@@ -2,7 +2,7 @@ export const COMPANY = {
   name: 'Sam Codes',
   tagline: 'Roofing You Can Trust',
   phone: { display: '(352) 555-0173', href: 'tel:+13525550173' },
-  email: 'info@scottsmithroofing.com',
+  email: 'info@samdoescode.com',
   address: {
     street: '1420 SW College Rd',
     city: 'Ocala',
